@@ -1,0 +1,50 @@
+
+
+body {
+    background-image: linear-gradient(to right, #ffe88a,#fbbe84,#fda185,#f97f69,#ff5d5d);
+}
+
+/* class selector */
+.col {
+    width: 25%;
+    background-image: linear-gradient(to left, #2f2740, #6c234e, #b84974, #df6ea0, #eea2c6);
+    float: left;
+}
+
+.col-3 {
+    width: 33.33%;
+    background-image: linear-gradient(to left, #2f2740, #6c234e, #b84974, #df6ea0, #eea2c6);
+    float: left;
+}
+
+.img-responsive {
+    width: 100%;
+    max-height: 200px;
+    border-radius: 30% 50% 30% 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-primary {
+    background-color: #fdf0d1;
+}
+
+.rounded {
+    border-radius: 20px;
+}
+
+.mb-5 {
+    margin-bottom: 150px;
+}
+
+.mt-5 {
+    margin-top: 150px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
